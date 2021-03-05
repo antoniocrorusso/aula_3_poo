@@ -11,7 +11,7 @@ public class Main {
         D = leitor.nextInt();
         if (B > C && D > A && C + D > A + B && C >= 0 && D >= 0 && A % 2 == 0) {
             // print ("Valores aceitos")
-            System.out.print("Valores aceitos");
+            System.out.println("Valores aceitos");
         } else {
             System.out.println("Valores nao aceitos");
         }
